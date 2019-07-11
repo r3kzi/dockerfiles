@@ -5,3 +5,6 @@ kubectl:
 
 helm:
 	docker build --no-cache -t docker-helm:latest -t rekzi/docker-helm:latest helm/
+
+logcli:
+	docker build --no-cache -t logcli:latest -t rekzi/logcli:latest logcli/
