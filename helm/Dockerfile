@@ -4,7 +4,7 @@ LABEL maintainer="mail@christian-niehoff.com"
 
 RUN apk add --no-cache curl
 
-ENV HELM_VERSION=2.13.0
+ENV HELM_VERSION=2.14.3
 ENV HELM_URL=https://storage.googleapis.com/kubernetes-helm/helm-v${HELM_VERSION}-linux-amd64.tar.gz
 
 RUN curl --location --remote-name --silent --show-error ${HELM_URL} && \
